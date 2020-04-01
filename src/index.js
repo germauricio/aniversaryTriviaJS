@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
+import React from 'react';
 import App from './App';
+import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+import reducer from './reducer';
+
+var miStore = createStore(reducer);
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={miStore}>
     <App />
-  </React.StrictMode>,
+    </Provider>,
   document.getElementById('root')
 );
 

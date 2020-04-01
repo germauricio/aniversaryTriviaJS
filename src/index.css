@@ -11,3 +11,162 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap');
+label.customfont { 
+  font-family:  'Baloo Thambi 2', cursive;
+}
+
+h3.customfont{
+  font-family:  'Baloo Thambi 2', cursive;
+  position: absolute;
+  right: 7%;
+  top: 45%;
+}
+h4.customfont{
+  font-family:  'Baloo Thambi 2', cursive;
+  position: absolute;
+  right: 18%;
+  top: 50%;
+}
+
+hr.hr{
+  position: absolute;
+  top: 10%;
+}
+
+h1.customfont{
+  position: absolute;
+  left: 3%;
+  font-family:  'Baloo Thambi 2', cursive;
+}
+
+
+h1.customfontMichi{
+  position: absolute;
+  left: 30%;
+  top:15%;
+  font-family:  'Baloo Thambi 2', cursive;
+}
+
+h1.customfontMauri{
+  position: absolute;
+  left: 3%;
+  top:15%;
+  font-family:  'Baloo Thambi 2', cursive;
+}
+
+.container {
+  margin: auto;
+  margin-top: 60px;
+  height: 300px;
+  width: 100%;
+}
+#leftThing {
+  position: absolute;
+  left: 2%;
+  top: 29%;
+}
+#content {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+#rightThing {
+  position: absolute;
+  left: 32%;
+  top: 29%;
+}
+
+#versus{
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+
+img.pibes {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+button.verde {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+  right: 27%;
+  top: 70%;
+}
+
+button.verde:hover {background-color: #3e8e41}
+
+button.verde:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.rojo {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+  right: 12%;
+  top: 70%;
+}
+
+button.rojo:hover {background-color: rgba(255, 0, 0, 0.712)}
+
+button.rojo:active {
+  background-color: rgb(255, 0, 0, 0.712);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.azul {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(98, 133, 250);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+  right: 17%;
+  top: 30%;
+}
+
+button.azul:hover {background-color: rgba(78, 89, 252, 0.712)}
+
+button.azul:active {
+  background-color: rgba(78, 89, 252, 0.712);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
